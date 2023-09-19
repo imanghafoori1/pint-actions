@@ -39,3 +39,4 @@ jobs:
           cp .env.example .env
       - name: Check namespaces
         run: php artisan check:psr4
+
