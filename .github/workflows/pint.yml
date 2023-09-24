@@ -22,8 +22,16 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: PHP version
-        run: php --version
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: 8.0
+          extensions: dom, curl, libxml, mbstring, zip, pcntl, pdo, cli, gd, memcached, imap, mysql, xml, bcmath, intl, readline, pcov, msgpack, igbinary, redis, swoole
+          coverage: none
+      - name: PHP info
+        run: |
+          php --version
+          php -m
       - name: Checkout code
         uses: actions/checkout@v4
         with:
