@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2ade786fbd95138c9901876275f79517",
+    "content-hash": "921496825bb3c274e88f5e005b90267c",
     "packages": [
         {
             "name": "brick/math",
@@ -1220,16 +1220,16 @@
         },
         {
             "name": "imanghafoori/laravel-microscope",
-            "version": "v1.0.304",
+            "version": "v1.0.306",
             "source": {
                 "type": "git",
                 "url": "https://github.com/imanghafoori1/laravel-microscope.git",
-                "reference": "487cf3ff402c2e23733f95322059eba6126d9d5a"
+                "reference": "69fa7cea77f32bab767a6d121fb626896a562a21"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/imanghafoori1/laravel-microscope/zipball/487cf3ff402c2e23733f95322059eba6126d9d5a",
-                "reference": "487cf3ff402c2e23733f95322059eba6126d9d5a",
+                "url": "https://api.github.com/repos/imanghafoori1/laravel-microscope/zipball/69fa7cea77f32bab767a6d121fb626896a562a21",
+                "reference": "69fa7cea77f32bab767a6d121fb626896a562a21",
                 "shasum": ""
             },
             "require": {
@@ -1282,9 +1282,9 @@
             ],
             "support": {
                 "issues": "https://github.com/imanghafoori1/laravel-microscope/issues",
-                "source": "https://github.com/imanghafoori1/laravel-microscope/tree/v1.0.304"
+                "source": "https://github.com/imanghafoori1/laravel-microscope/tree/v1.0.306"
             },
-            "time": "2023-08-18T21:05:57+00:00"
+            "time": "2023-10-03T17:09:02+00:00"
         },
         {
             "name": "imanghafoori/php-abstract-filesystem",
