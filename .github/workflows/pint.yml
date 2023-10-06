@@ -50,5 +50,7 @@ jobs:
       - name: Check namespaces
         env:
           APP_ENV: local
-        run: php artisan check:psr4
+        run: |
+          php artisan check:psr4
+          php artisan check:import
 
